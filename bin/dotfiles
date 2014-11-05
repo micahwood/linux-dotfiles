@@ -1,7 +1,7 @@
 #!/bin/bash
 
 DOTFILES_DIRECTORY="${HOME}/.dotfiles"
-DOTFILES_TARBALL_PATH="https://github.com/senorflor/linux-dotfiles/tarball/master"
+DOTFILES_TARBALL_PATH="https://github.com/micahwood/linux-dotfiles/tarball/master"
 
 maybe_tput() {
     [ -z $PS1 ] || tput setaf $1
