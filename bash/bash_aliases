@@ -23,7 +23,7 @@ alias la="ls --color -AFoh"
 # List all except . and .., color, mark file types, long form no use group, order by last modified, file size
 alias lat="ls --color -AFoth"
 
-alias ll='ls -alF'
+alias ll='ls --color -alF'
 
 #
 # These are the nice Git aliases I got from Bob Beaty
