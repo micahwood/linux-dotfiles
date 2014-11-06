@@ -6,13 +6,13 @@ My minimal Linux dotfiles.
 ## How to install
 
 ```bash
-$ bash -c "$(curl -fsSL raw.github.com/senorflor/linux-dotfiles/master/bin/dotfiles)"
+$ bash -c "$(curl -fsSL raw.github.com/micahwood/linux-dotfiles/master/bin/dotfiles)"
 ```
 
 On a machine to which you have ssh access:
 
 ```bash
-$ ssh some.machine 'bash -c "$(curl -fsSL raw.github.com/senorflor/linux-dotfiles/master/bin/dotfiles)"'
+$ ssh some.machine 'bash -c "$(curl -fsSL raw.github.com/micahwood/linux-dotfiles/master/bin/dotfiles)"'
 ```
 
 N.B. If you wish to fork this project and maintain your own dotfiles, you must
@@ -22,7 +22,7 @@ permissions problems with the dotfiles linking, try the same command,
 replacing "master" with "sudo-ln":
 
 ```bash
-$ bash -c "$(curl -fsSL raw.github.com/senorflor/linux-dotfiles/sudo-ln/bin/dotfiles)"
+$ bash -c "$(curl -fsSL raw.github.com/micahwood/linux-dotfiles/sudo-ln/bin/dotfiles)"
 ```
 
 
