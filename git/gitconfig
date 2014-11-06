@@ -47,7 +47,7 @@
     interactive = auto
 
 [core]
-    editor = emacs
+    editor = vim
     autocrlf = input
     safecrlf = true
 
