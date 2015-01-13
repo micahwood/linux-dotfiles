@@ -5,6 +5,7 @@
 .DS_Store
 Thumbs.db
 .idea
+.sublime-grunt.cache
 
 # Files that might appear on external disks
 .Spotlight-V100
