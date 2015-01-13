@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+<li class="form-fields__item">
+    <span class="flexbox" label="${1:label}">
+        <label class="form-fields__item--label">${1:label}:</label>
+
+        <span class="form-fields__item--body">
+            <span class="form-fields__item--body--text ">${2:value}</span>
+        </span>
+    </span>
+</li>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>labelpair</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php, text.html</scope>
+</snippet>
