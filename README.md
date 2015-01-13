@@ -1,4 +1,4 @@
-# Dotfiles (Patrick Flor)
+# Dotfiles (Micah Wood)
 
 My minimal Linux dotfiles.
 
