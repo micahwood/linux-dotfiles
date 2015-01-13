@@ -45,6 +45,14 @@ mirrorfiles() {
     if [ -e "${HOME}/.vim" ]; then
         rm -rf "${HOME}/.vim"
     fi
+    
+    # Force remove the sublime packages and installed packages if it is already there
+    if [ ! -d "${HOME}/.config/sublime-text-3/Packages"]; then
+        rm -rf "${HOME}/.config/sublime-text-3/Packages"
+    fi
+    if [ ! -d "${HOME}/.config/sublime-text-3/Installed\ Packages"]; then
+        rm -rf "${HOME}/.config/sublime-text-3/Installed\ Packages"
+    fi
 
     # Create the .emacs.d directory if it's not already there.
     if [ ! -d "${HOME}/.emacs.d" ]; then
@@ -67,6 +75,7 @@ mirrorfiles() {
     link "vim"                               ".vim"
     link "vim/gvimrc"                        ".gvimrc"
     link "vim/vimrc"                         ".vimrc"
+    link "sublime"                           ".config/sublime-text-3"
 
     e_success "Dotfiles update complete!"
 }
