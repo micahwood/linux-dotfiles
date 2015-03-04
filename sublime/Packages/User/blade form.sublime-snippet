@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+{{ Form::open() }}
+	${1}
+{{ Form::close() }}
+]]></content>
+  <tabTrigger>newform</tabTrigger>
+  <scope>text.html.laravel-blade</scope>
+  <description>Create new form with blade</description>
+</snippet>

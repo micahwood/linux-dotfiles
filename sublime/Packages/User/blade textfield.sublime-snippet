@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+<div class="form-group">
+	{{ Form::label('$1', '${1/^(\w)|(_(\w))/(?1:\u\1:)(?2: \u\3:)/g}') }}
+	{{ Form::${2:text}('$1', null, ['class' => 'form-control']) }}
+</div>${3}
+]]></content>
+  <tabTrigger>textfield</tabTrigger>
+  <scope>text.html.laravel-blade</scope>
+  <description>Text field with bootstrap classes for blade</description>
+</snippet>

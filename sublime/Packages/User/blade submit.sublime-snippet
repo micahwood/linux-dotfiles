@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+<div class="form-group">
+	{{ Form::submit('$1', ['class' => 'btn btn-primary form-control']) }}
+</div>${2}
+]]></content>
+  <tabTrigger>submitfield</tabTrigger>
+  <scope>text.html.laravel-blade</scope>
+  <description>Submit button with bootstrap classes for blade</description>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+<div class="checkbox">
+	{{ Form::label('$1', '${1/^(\w)|(_(\w))/(?1:\u\1:)(?2: \u\3:)/g}') }}
+	{{ Form::checkbox('$1') }}
+</div>${3}
+]]></content>
+  <tabTrigger>checkbox</tabTrigger>
+  <scope>text.html.laravel-blade</scope>
+  <description>Checkbox with bootstrap classes for blade</description>
+</snippet>

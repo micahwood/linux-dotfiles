@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+@extends('${1:layout}')
+
+@section('${2:content}')
+	${3}
+@stop
+]]></content>
+  <tabTrigger>nv</tabTrigger>
+  <scope>text.html.laravel-blade</scope>
+  <description>Blank template for extending a blade layout</description>
+</snippet>
