@@ -117,8 +117,8 @@ set scrolloff=3
 " Don’t reset cursor to start of line when moving around.
 set nostartofline
 
-" Show 'invisible' characters
-set list
+" Don't show 'invisible' characters
+set nolist
 " Set characters used to indicate 'invisible' characters
 set listchars+=nbsp:_
 "set listchars+=eol:¬
